@@ -83,7 +83,7 @@
                  h || (h = !0, clearInterval(f), t("#nearest-wrap").removeClass("swing"))
              },
              p = location.hash.replace("#", "").split("/").filter(l),
-             w = parseInt(p[2]) || 24,
+             w = parseInt(p[2]) || 25,
              D = (p[1] || 6) - 1,
              _ = parseInt(p[0]) || 2023,
              m = +new Date(_, D, w),
