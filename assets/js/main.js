@@ -68,11 +68,11 @@
                      return [0 == t ? "Today" : [1 == t ? "Tomorrow" : 2 == t ? "The day after tomorrow" : ["In", "<b>" + t + "</b>", e.math(t).declination(["day", "days", "days"]).toLowerCase( )].join(" "), "there will be"].join(" "), this.__type + ":", this.__title + "."].join(" ")
                  }
              }, t.CoolDate.__defineGetter__("MONTH", function() {
-                 return "round date"
+                 return "a round date"
              }), t.CoolDate.__defineGetter__("COUNT", function() {
-                 return "beautiful number of days"
+                 return "a beautiful number of days"
              }), t.CoolDate.__defineGetter__("IMPORTANT", function() {
-                 return "important event"
+                 return "an important event"
              })
         }(window);
          var u, c, d, h = !1,
